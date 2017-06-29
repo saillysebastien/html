@@ -1,0 +1,38 @@
+@media all and (max-width: 640px) {
+  nav {
+    flex-direction: column;
+    width: 100%
+  }
+}
+
+nav {
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-around;
+  color: silver;
+  font-family: sans;
+  font-weight: bold;
+  width: 100%
+}
+
+div {
+  padding: 5px;
+  flex: 1 1 auto;
+  text-align: center;
+  border: 2px solid white;
+}
+
+div:hover {
+  background-color: green;
+}
+
+footer {
+  width: 100%
+  clear: both;
+}
+
+picture {
+  display: block;
+  float: left;
+  max-width: 100%
+}

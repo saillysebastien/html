@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Titre</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel ="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+  <link rel ="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+
+</head>
+
+<body>
+
+  <form action="" method="post" enctype="multipart/form-data">
+
+    <input type="hidden" name="token" value="" />
+
+    <div class="container">
+      <div class="row">
+        <div class="form-group">
+          <label for="firstname" class=" col-xs-2 col-sm-2 control-label">Prénom <span>*</span></label>
+          <div class="col-xs-10 col-sm-10">
+            <input class="form-control" type="text-decoration-stylext" id="firstname" name="firstname" value="" placeholder="Votre prénom" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="lastname" class="col-xs-2 col-sm-2 control-label">Nom <span>*</span></label>
+          <div class="col-xs-10 col-sm-10">
+            <input class="form-control" type="text" id="lastname" name="lastname" value="" placeholder="Votre nom" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="birthday" class="col-xs-2 col-sm-2 control-label">Date de naissance<span>*</span></label>
+          <div class="col-xs-10 col-sm-10">
+            <input class="form-control" type="date" id="birthday" name="birthday" value="" placeholder="JJ/MM/AA" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-xs-2 col-sm-2" for="email">Email<span>*</span></label>
+          <div class="col-xs-10 col-sm-10">
+            <input class="form-control" type="email" id="email" name="email" value="" placeholder="Votre email" required/>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label  for="password" class="col-xs-2 col-sm-2 control-label">Mot de passe<span>*</span></label>
+          <div class="col-xs-10 col-sm-10">
+            <input class="form-control" type="password"  id="password" placeholder="Votre mot de passe" required/>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="cats">
+          <label class="col-xs-2 col-sm-2" for="cats">
+            Nombre de chats
+          </label>
+          <div class="col-xs-10 col-sm-10">
+            <input class="form-control" type="number" id="cats" name="cats" value="0"  />
+          </div>
+        </div>
+      </div>
+
+      <!-- avatar et fichier -->
+      <div class="row">
+        <div class="avatar">
+          <div class="col-sm-6">
+            <div class="col-sm-2">
+              <label for="avatar">Avatar</label>
+            </div>
+            <div class="col-sm-4">
+              <input type="file" id="avatar" name="avatar" />
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-sm-2">
+              <label for="files">Fichiers</label>
+            </div>
+            <div class="col-sm-4">
+              <input type="file" id="files" name="files[]" multiple />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-offset-2 col-sm-4">
+          <p class="help-block">Choisissez votre image pour votre avatar.</p>
+        </div>
+        <div class="col-sm-offset-2 col-sm-4">
+          <p class="help-block">Sélectionnez plusieurs fichiers grâce à la touche Ctrl.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-offset-2 col-sm-4 fruit">
+          <label>Quels fruits mangez-vous ?</label>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"  name="fruit[]" value="1" />
+              Pomme
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="fruit_2" name="fruit[]" value="2" />
+              Poire
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="fruit_3" name="fruit[]" value="3" />
+              Peche
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="fruit_4" name="fruit[]" value="4" />
+              Banane
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="fruit_5" name="fruit[]" value="5" />
+              Melon
+            </label>
+          </div>
+        </div>
+
+        <div class="col-sm-offset-2 col-sm-4 vegetable">
+          <label>Quel est votre légume préféré ?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" id="vegetable_0" name="vegetable" value="" checked />
+              Aucun
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="vegetable_1" name="vegetable" value="1" />
+              Concombre
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="vegetable_2" name="vegetable" value="2" />
+              Tomate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="vegetable_3" name="vegetable" value="3" />
+              Topinambour
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="vegetable_4" name="vegetable" value="4" />
+              Salade
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="color">
+          <div class="col-sm-6">
+            <div class="col-sm-3">
+              <label>Quel est votre couleur préféré ?</label>
+            </div>
+            <select class="col-sm-3 color">
+              <option value="">Aucune</option>
+              <option value="1">Rouge</option>
+              <option value="2">Vert</option>
+              <option selected value="3">Bleu</option>
+            </select>
+            <div class="col-sm-offset-6">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="days">
+          <div class="col-sm-12">
+            <div class="col-sm-3">
+              <label for="days">Quel sont vos jours préférés ?</label>
+            </div>
+            <div class="col-sm-9">
+              <select multiple class="form-control" id="days" name="days[]" size="5">
+                <option disabled value="">Aucun</option>
+                <option value="1">Lundi</option>
+                <option value="2">Mardi</option>
+                <option value="3">Mercredi</option>
+                <option value="4">Jeudi</option>
+                <option value="5">Vendredi</option>
+                <option value="6">Samedi</option>
+                <option value="7">Dimanche</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 help-block">
+          <p class="col-sm-offset-5 help-block">Utilisez la touche Ctrl et clic gauche de la souris pour faire plusieurs choix.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 text-area">
+          <label class="col-sm-3 who_are_you"><br /><br />Présentez vous en quelques mots :</label><br />
+          <textarea class="col-sm-9 who-are-you" rows="3">
+          </textarea>
+        </div>
+      </div>
+
+      <footer>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 footer">
+            <p>Popschool-lens, promo 2</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  </body>
+  </html>

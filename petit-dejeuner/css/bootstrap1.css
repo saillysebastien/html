@@ -1,0 +1,100 @@
+
+[class*="col-"]{
+  background-color: lightblue;
+  border: 1px solid powderblue;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}
+
+article{
+  background-color: lightblue;
+}
+
+.col-sm-12{
+  height:inherit;
+}
+
+.container{
+  background-color: dark;
+  height: auto;
+  width: 100%;
+}
+
+header{
+  background-color: lightblue;
+  border-radius: 6px;
+  height: auto;
+  font: 30px sans-serif;
+  margin: 0 0 0 0;
+  /*padding: 2px 1px 2px 1px;*/
+  text-align: center;
+}
+
+.image{
+  text-align: center;
+}
+.titre{
+  background-color: lightblue;
+  font-size: 20px;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/
+  margin: 5px 0 5px 0;
+  text-align: center;
+  text-decoration: underline;
+}
+/*.col-sm-6{
+  padding: 2px -15px 2px - 2px ;
+}
+.col-sm-12{
+  padding: 0 -15px 0 -15px ;
+}
+.col-sm-4{
+  padding: 0 -15px 0 -15px ;
+}*/
+
+.debut{
+  background-image: url("../img/bloc2.jpeg");
+  background-color: lightblue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*padding: 0 -15px 0 -15px ;*/
+  height: 200px;
+  text-align: left;
+  width: 100%;
+}
+.deux{
+  background-color: lightblue;
+  background-image: url("../img/blog3.jpeg");
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  width: auto;
+}
+.deuxa{
+  background-color: lightblue;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.trois{
+  background-image: url("../img/blog4.jpeg");
+  background-color: lightblue;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+footer{
+  font-size: 20px ;
+  font-style: italic;
+  background-color: lightblue;
+  height: 40px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}

@@ -1,0 +1,81 @@
+@font-face {
+  font-family: leixo;
+  src: url("../fonts/leixo/LEIXO-DEMO.ttf");
+}
+
+@font-face {
+  font-family: EB_garamond;
+  src: url("../fonts/EB_Garamond/EBGaramond-Regular.ttf");
+}
+
+* {
+  text-align: center;
+  background-color: #f0ffff;
+}
+
+img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+em, strong {
+  text-decoration: underline;
+}
+
+p {
+  color: #697D99;
+  line-height: 20px;
+  width: 80em;
+  font-family: EB_Garamond, serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #F8F75C;
+  font-family: leixo , sans-serif;
+}
+
+a {
+  font-size: 40px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  display: flex;
+  position: fixed;
+  height: 128px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+nav a {
+  display: block;
+  color: #BDCED8;
+  padding-top: 35px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #BDCED8;
+  color: #F8F75C;
+  height: 128px;
+}
+
+.menu {
+  border-bottom: 1px solid #F8F65C;
+  border-top: 1px solid #F8F65C;
+  margin-top: 2px;
+  text-align: center;
+  background-color: #f1f1f1;
+  display: block;
+}
+
+.placeholder {
+  height: 128px;
+  width: 100%;
+}
